@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+/* font-family: 'Poppins', sans-serif; */ /* headings */
+/* Variables */
+:root {
+  --Grayish-Blue: hsl(208, 11%, 55%);
+  --Pink: hsl(322, 100%, 66%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* Global Rules Start */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8em;
+}
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 87%;
+}
+@media (min-width: 900px) {
+  .row {
+    align-items: center;
+    display: flex;
+  }
+}
+/* Global Rules End */
+
+/* Header Start */
+.header {
+  background-color: var(--Very-Pale-Cyan);
+  background-image: url(images/bg-hero-mobile.svg);
+}
+.header .container {
+  padding: 5rem 0;
+}
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  width: 100px;
+}
+.nav a {
+  background: white;
+  border-radius: 100px;
+  box-shadow: 0 0 10px 0 #dfe9ef;
+  color: var(--Very-Dark-Cyan);
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+/* Header End */
