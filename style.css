@@ -48,6 +48,21 @@ h2 {
     display: flex;
   }
 }
+.text {
+  text-align: center;
+}
+.header .text a,
+.ready a {
+  background: var(--Pink);
+  border-radius: 100px;
+  box-shadow: 0 6px 10px 0 #dfe9ef;
+  color: white;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.7em 3em;
+  text-decoration: none;
+}
 /* Global Rules End */
 
 /* Header Start */
@@ -69,11 +84,71 @@ h2 {
 .nav a {
   background: white;
   border-radius: 100px;
-  box-shadow: 0 0 10px 0 #dfe9ef;
+  box-shadow: 0 6px 10px 0 #dfe9ef;
   color: var(--Very-Dark-Cyan);
   font-size: 1.4rem;
   font-weight: bold;
   padding: 0.5em 2em;
   text-decoration: none;
 }
+.header .text {
+  margin: 5rem 0;
+}
+.header h1 {
+  font-size: 2.5rem;
+}
+.header p {
+  margin: 3rem 0;
+}
 /* Header End */
+
+/* Cards Start */
+.cards {
+  padding: 5rem 0;
+}
+.card {
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 7px #f6f6f6;
+  display: grid;
+  margin-bottom: 4rem;
+  padding: 3rem;
+}
+.card img {
+  order: -1;
+}
+.card .text {
+  margin-top: 5rem;
+}
+.card .text h2 {
+  color: var(--Very-Dark-Cyan);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.card .text p {
+  color: var(--Grayish-Blue);
+  font-size: 1.5rem;
+}
+/* Cards End */
+
+/* Ready Start */
+.ready .container {
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 7px #f6f6f6;
+  margin-bottom: -2rem;
+  padding: 4rem 0;
+  position: relative;
+  text-align: center;
+}
+.ready h2 {
+  color: var(--Very-Dark-Cyan);
+  font-size: 1.8rem;
+}
+/* Ready End */
+
+/* Footer Start */
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  padding: 10rem 0;
+}
+/* Footer End */
